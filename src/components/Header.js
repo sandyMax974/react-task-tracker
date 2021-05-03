@@ -3,7 +3,7 @@ import Button from "./Button"
 
 const Header = ({ title }) => {
 
-  const onClick = () => console.log('Click') //temporary placeholder
+  const onClick = (e) => console.log(e) //temporary placeholder
 
   return (
     <header className="header">
